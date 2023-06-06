@@ -23,10 +23,10 @@ var foodY;
 var isGameOver = false
 
 function restartGame() {
-  if(window.confirm("Game Over!\n\nWanna play again?")) {
-    load()
+  if(window.confirm("Game Over!\nPlay again?")) {
+    location.reload()
   } else {
-    return;
+    location.reload()
   }
 }
 
